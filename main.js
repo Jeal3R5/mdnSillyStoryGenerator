@@ -1,5 +1,5 @@
 //Section 1 - initialize your main variables
-const customName = document.getElementById(".customname");
+const customName = document.getElementById("customname");
 const randomize = document.querySelector(".randomize");
 const story = document.querySelector(".story");
 
@@ -46,7 +46,7 @@ function result() {
   if (document.getElementById("uk").checked) {
     const weight = `${Math.round(300 / 14)} stone`;
 
-    const temperature = `{(Math.round(94 - 32) * 5 / 9)} centigrade`;
+    const temperature = `${(Math.round(94 - 32) * 5) / 9} centigrade`;
 
     newStory = newStory.replaceAll("94 fahrenheit", temperature);
     newStory = newStory.replaceAll("300 pounds", weight);
