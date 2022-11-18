@@ -1,11 +1,14 @@
 
 body {
     font-family: helvetica, sans-serif;
-    width: 350px;
+    width: 100vw;
+    text-align: center;
+    background-color: #205566;
     }
 
 label {
     font-weight: bold;
+    color: #6FB9B9
     }
 
 div {
@@ -15,6 +18,7 @@ div {
 input[type="text"] {
     padding: 5px;
     width: 150px;
+    background-color: palegreen;
     }
 
 p {
@@ -23,3 +27,21 @@ p {
     padding: 10px;
     visibility: hidden;
     }
+
+h1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    width: 100vw;
+    color: #6FB9B9;
+
+}
+
+.story {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.randomize {
+    background-color: palegreen;
+}

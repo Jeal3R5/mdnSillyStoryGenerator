@@ -1,6 +1,7 @@
 ***Silly Story Generator***
 
 This project was obtained from MDN as part of a lesson in the odinProject
+SPA that generates a short silly paragraph.
 
 Tech Used: 
 * HTML
@@ -10,5 +11,5 @@ Tech Used:
 * GitHub
 
 Future improvements: 
-* Add a variety of options in the arrays for an even more diverse story - perhaps use an API to make it fun
+* Perhaps find an API to use to randomly generate different portions of the story
 * Improve CSS further
