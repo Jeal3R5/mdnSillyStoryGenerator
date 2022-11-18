@@ -10,7 +10,7 @@ function randomValueFromArray(arr) {
 
 //Contain strings inside variables
 const storyText =
-  "It was 94 fahrenheit outside, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole things, but was not surprised - :insertx: weighs 300 pounds, and it was a hot day.";
+  "It was 94 fahrenheit outside, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised - :insertx: weighs 300 pounds, and it was a hot day.";
 const insertX = ["Willy the Goblin", "Big Daddy", "Father Time"];
 const insertY = ["the soup kitchen", "Disneyland", "Grandma's House"];
 const insertZ = [
